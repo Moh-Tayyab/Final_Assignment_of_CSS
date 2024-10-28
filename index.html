@@ -1,102 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <title>Company Portfolio</title>
 </head>
+
 <body>
     <!--Header-->
-    <header >
-         <!--Start nav-->
+    <header>
+        <!--Start nav-->
         <nav class="navbar">
             <!-- Start logo-->
             <div class="logo">
-
-            <a href="#"><img src="./images/panacloud-logo.png" alt="Company Logo"></a>
+                <a href="#"><img src="./images/panacloud-logo.png" alt="Company Logo"></a>
             </div>
             <!-- End logo-->
-             <div class="nav-links">
-
-            <ul>
-                <li><a href="#">Why Us</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Process</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Our Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-            <!--End nav-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#proces">Process</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#skill">Our Skills</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
         <!-- banner -->
-         <div class="banner">
+        <div class="banner">
             <img src="/images/Company-Portfolio.jpg" alt="banner">
         </div>
         <!-- end banner -->
-    </header>    
-    <!--section-->
-    <section class="advantages">
-        <h2 class="advantages">
-            <span class="our" style="color: black;">OUR</span> <span class="advantages-text" style="color:#7cf305d3">ADVANTAGES</span>
-        </h2>        
-        <p class="intro-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+    </header>
+    <main>
+        <!-- Advantages section -->
+        <section class="advantages" id="why-us">
+            <h2 class="advantages-title">
+                <span class="our" style="color: black;">OUR</span> <span class="advantages-text"
+                    style="color: #38b000">ADVANTAGES</span>
+            </h2>
+            <p class="intro-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat</p>
 
-        <div class="advantages-grid">
-            <div class="advantage-item">
-                <img src="/images/Innovation.png" alt="Innovation">
-                <h3>Innovation</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-            </div>
-            <div class="advantage-item">
-                <img src="/images/Quality.png" alt="Quality">
-                <h3>Quality</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-            </div>
-            <div class="advantage-item">
-                <img src="/images/Experience.png" alt="Experience">
-                <h3>Experience</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-            </div>
-            <div class="advantage-item">
-                <img src="/images/Happy-Clients.png" alt="Happy-Clients">
-                <h3>Happpay Clients</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-            </div>
-            <div class="advantage-item">
-                <img src="/images/Support.png" alt="Support">
-                <h3>Support</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <img src="/images/Innovation.png" alt="Innovation">
+                    <h3>Innovation</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                </div>
+                <div class="advantage-item">
+                    <img src="/images/Quality.png" alt="Quality">
+                    <h3>Quality</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                </div>
+                <div class="advantage-item">
+                    <img src="/images/Experience.png" alt="Experience">
+                    <h3>Experience</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                </div>
+                <div class="advantage-item">
+                    <img src="/images/Happy-Clients.png" alt="Happy-Clients">
+                    <h3>Happy Clients</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                </div>
+                <div class="advantage-item">
+                    <img src="/images/Support.png" alt="Support">
+                    <h3>Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                </div>
             </div>
         </section>
-        <section class="about-section">
+
+        <!-- About section -->
+        <section class="about-section" id="about">
             <div class="about-content">
                 <h2 class="about-title">
-                    ABOUT <span class="highlight" style="color: rgb(125, 206, 4);">US</span>
+                    ABOUT <span class="highlight" style="color: #38b000;">US</span>
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-                magna aliquyam erat, sed diam voluptua.</p>
-                <p>At vero eos et accusam et justo duo dolores et ea rebum. 
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur 
-                sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-                labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam voluptua.</p>
+                <p>At vero eos et accusam et justo duo dolores et ea rebum.
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                    ipsum dolor sit amet.</p>
                 <a href="#" class="read-more-btn">READ MORE</a>
             </div>
-           
         </section>
 
+        <!-- Services section -->
+        <section class="our-services" id="services">
+            <h2 class="our-services-title">
+                OUR <span class="highlight" style="color: #38b000;">SERVICES</span>
+            </h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="/images/Services.png" alt="Service 1">
+                    <h3>WEB DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat.</p>
+                    <a href="#" class="read-btn" ;>read more</a>
+                </div>
+                <div class="service-item">
+                    <img src="/images/Services.png" alt="Service 2">
+                    <h3>GRAPHIC DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat.</p>
+                    <a href="#" class="read-btn" ;>read more</a>
+                </div>
+                <div class="service-item">
+                    <img src="/images/Services.png" alt="Service 3">
+                    <h3>BRANDING</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat.</p>
+                    <a href="#" class="read-btn" ;>read more</a>
+                </div>
+                <div class="service-item">
+                    <img src="/images/Services.png" alt="Service 4">
+                    <h3>MARKETING</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat.</p>
+                    <a href="#" class="read-btn" ;>read more</a>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio section -->
+        <section class="portfolio-section" id="portfolio">
+
+            <div class="portfolio-container">
+                <!-- Portfolio Title -->
+                <h1 class="portfolio-title">OUR <span>PORTFOLIO</span></h1>
+                <p class="portfolio-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <!-- Navigation Links -->
+                <div class="portfolio-nav">
+                    <a href="#">WEB DESIGN</a>
+                    <a href="#">GRAPHIC DESIGN</a>
+                    <a href="#">BRANDING</a>
+                    <a href="#" class="active">LOGO</a>
+                    <a href="#">MARKETING</a>
+                    <a href="#">ADVERTISEMENT</a>
+                </div>
+
+                <!-- Logo Grid -->
+                <div class="logo-grid">
+                    <div class="logo-item">
+                        <img src="/images/horse.png" alt="Horse" class="logo-image">
+                    </div>
+
+                    <div class="logo-item">
+                        <img src="/images/social tree.png" alt="Social Trees" class="logo-image">
+
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/creative-brain.png" alt="Creative Brain" class="logo-image">
+
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/team-success.png" alt="Team Success" class="logo-image">
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/rhino-group.png" alt="Rhino Group" class="logo-image">
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/grow-place2.png" alt="Growth Place" class="logo-image">
+
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/brain-works.png" alt="Brain Works" class="logo-image">
+
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/lion-group1.png" alt="Lion Group" class="logo-image">
+
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/grow-place.png" alt="Growth Place" class="logo-image">
+                    </div>
+                    <div class="logo-item">
+                        <img src="/images/social-group.png" alt="Social Group" class="logo-image">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Process section -->
+        <section class="process-section" id="proces">
+            <div class="process-container">
+                <h2 class="process-title">OUR <span>PROCESS</span></h2>
+                <p class="process-description">Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+        
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-circle">
+                            <div class="step-number">1</div>
+                            <img src="/images/phone-icon.png" alt="Request Call Icon" class="step-icon">
+                        </div>
+                        <h3 class="step-title">REQUEST CALL</h3>
+                        <p class="step-description">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+        
+                    <div class="step">
+                        <div class="step-circle">
+                            <div class="step-number">2</div>
+                            <img src="/images/consultant-icon.png" alt="Consultation Icon" class="step-icon">
+                        </div>
+                        <h3 class="step-title">CONSULTATION</h3>
+                        <p class="step-description">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+        
+                    <div class="step">
+                        <div class="step-circle">
+                            <div class="step-number">3</div>
+                            <img src="/images/plan.png" alt="Planning Icon" class="step-icon">
+                        </div>
+                        <h3 class="step-title">PLANNING</h3>
+                        <p class="step-description">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+        
+                    <div class="step">
+                        <div class="step-circle">
+                            <div class="step-number">4</div>
+                            <img src="/images/work-proces.png" alt="Work Process Icon" class="step-icon">
+                        </div>
+                        <h3 class="step-title">WORK PROCESS</h3>
+                        <p class="step-description">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+        
+                    <div class="step">
+                        <div class="step-circle">
+                            <div class="step-number">5</div>
+                            <img src="/images/correcting-pencil.png" alt="Correcting Icon" class="step-icon">
+                        </div>
+                        <h3 class="step-title">CORRECTING</h3>
+                        <p class="step-description">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+        
+                    <div class="step">
+                        <div class="step-circle">
+                            <div class="step-number">6</div>
+                            <img src="/images/check.png" alt="Deliver Icon" class="step-icon">
+                        </div>
+                        <h3 class="step-title">DELIVER</h3>
+                        <p class="step-description">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section class="about-us" id="review">
+            <h2>PEOPLE <span>ABOUT US</span></h2>
+            <p class="intro-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+            <div class="profiles">
+                <div class="profile">
+                    <div class="avatar"></div>
+                    <h3>JOHN DOE</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="profile">
+                    <div class="avatar"></div>
+                    <h3>JOHN DOE</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="profile">
+                    <div class="avatar"></div>
+                    <h3>JOHN DOE</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+                <div class="profile">
+                    <div class="avatar"></div>
+                    <h3>JOHN DOE</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                </div>
+            </div>
+            <div class="pagination">
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+    <!--Skills section-->
+        <section class="skills-section" id="skill">
+            <h2>OUR <span>SKILLS</span></h2>
+            <p class="intro-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+            <div class="skills">
+                <div class="skill">
+                    <div class="circle" data-percent="45" style="border-color: #ffa500;">
+                        <span>45%</span>
+                    </div>
+                    <p>SEO & ADS</p>
+                </div>
+                <div class="skill">
+                    <div class="circle" data-percent="60" style="border-color: #ff4d4d;">
+                        <span>60%</span>
+                    </div>
+                    <p>BRANDING</p>
+                </div>
+                <div class="skill">
+                    <div class="circle" data-percent="75" style="border-color: #87b540;">
+                        <span>75%</span>
+                    </div>
+                    <p>BRANDING</p>
+                </div>
+                <div class="skill">
+                    <div class="circle" data-percent="80" style="border-color: #333333;">
+                        <span>80%</span>
+                    </div>
+                    <p>WEB DESIGN</p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="project-section">
+            <h2>START YOUR NEW PROJECT</h2>
+            <div class="form-container">
+                <input type="text" placeholder="YOUR NAME">
+                <input type="email" placeholder="YOUR EMAIL">
+                <input type="tel" placeholder="YOUR PHONE">
+                <button>SEND REQUEST</button>
+            </div>
+            <p class="form-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+        </section>
+        <section class="contacts-section" id="contact">
+            <h2>OUR <span>CONTACTS</span></h2>
+            <p class="intro-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="icon location-icon"></i>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon phone-icon"></i>
+                    <p>(304) 386-6719</p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon phone-icon"></i>
+                    <p>(317) 011-3001</p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon email-icon"></i>
+                    <p>info@website.com</p>
+                </div>
+            </div>
+            <div class="map">
+                <div class="map-point" style="top: 50%; left: 30%;"></div>
+                <div class="map-point" style="top: 60%; left: 40%;"></div>
+                <div class="map-point" style="top: 40%; left: 70%;"></div>
+                <div class="map-point" style="top: 70%; left: 85%;"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>pana<br><span class="cloud">cloud</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <p>&copy;Panacloud 2019</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem Ipsum Dolor</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem Ipsum Dolor</a></li>
+                    <li><a href="#">Lorem Ipsum Dolor</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem Ipsum Dolor</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem Ipsum Dolor</a></li>
+                    <li><a href="#">Lorem Ipsum Dolor</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONTACTS</h3>
+                <p><span>&#9742;</span> +92 (304) 386-6719</p>
+                <p><span>&#9742;</span> +92 (317) 011-3001</p>
+                <p><span>&#9993;</span> info@website.com</p>
+                <h3>FOLLOW US</h3>
+                <div class="social-icons">
+                    <a href="#">f</a>
+                    <a href="#">tw</a>
+                    <a href="#">g+</a>
+                    <a href="#">in</a>
+                    <a href="#">Tube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
