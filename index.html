@@ -6,15 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"rel="stylesheet">
+    <!-- font icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
     <title>Company Portfolio</title>
 </head>
 
 <body>
     <!--Header-->
-    <header>
+    <header><!-- top header start-->
+    <header id="top-header">
+        <ul id="header-left">
+            <li><a href="#" class="header-a"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#" class="header-a"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#" class="header-a"><i class="fa-brands fa-google"></i></a></li>
+            <li><a href="#" class="header-a"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#" class="header-a"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <ul id="header-right">
+            <li><a href="#" class="header-a"><i class="fa-solid fa-phone-flip"></i>+92(304)368-6719</a></li>
+            <li><a href="#" class="header-a"><i class="fa-solid fa-phone-flip"></i>+92(317)011-3001</a></li>
+            <li><a href="#" class="header-a"><button id="btn">Call Me Back</button></a></li>
+        </ul>
+    </header>
         <!--Start nav-->
         <nav class="navbar">
             <!-- Start logo-->
@@ -330,83 +345,103 @@
             </div>
             <p class="form-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
         </section>
-        <section class="contacts-section" id="contact">
-            <h2>OUR <span>CONTACTS</span></h2>
-            <p class="intro-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="icon location-icon"></i>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                </div>
-                <div class="contact-item">
-                    <i class="icon phone-icon"></i>
-                    <p>(304) 386-6719</p>
-                </div>
-                <div class="contact-item">
-                    <i class="icon phone-icon"></i>
-                    <p>(317) 011-3001</p>
-                </div>
-                <div class="contact-item">
-                    <i class="icon email-icon"></i>
-                    <p>info@website.com</p>
-                </div>
-            </div>
-            <div class="map">
-                <div class="map-point" style="top: 50%; left: 30%;"></div>
-                <div class="map-point" style="top: 60%; left: 40%;"></div>
-                <div class="map-point" style="top: 40%; left: 70%;"></div>
-                <div class="map-point" style="top: 70%; left: 85%;"></div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-logo">
-                <h2>pana<br><span class="cloud">cloud</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                <p>&copy;Panacloud 2019</p>
-            </div>
-            
-            <div class="footer-section">
-                <h3>SERVICES</h3>
-                <ul>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem Ipsum Dolor</a></li>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem Ipsum Dolor</a></li>
-                    <li><a href="#">Lorem Ipsum Dolor</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>USEFUL LINKS</h3>
-                <ul>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem Ipsum Dolor</a></li>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem Ipsum Dolor</a></li>
-                    <li><a href="#">Lorem Ipsum Dolor</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>CONTACTS</h3>
-                <p><span>&#9742;</span> +92 (304) 386-6719</p>
-                <p><span>&#9742;</span> +92 (317) 011-3001</p>
-                <p><span>&#9993;</span> info@website.com</p>
-                <h3>FOLLOW US</h3>
-                <div class="social-icons">
-                    <a href="#">f</a>
-                    <a href="#">tw</a>
-                    <a href="#">g+</a>
-                    <a href="#">in</a>
-                    <a href="#">Tube</a>
-                </div>
-            </div>
+        <!-- sec 11 start our contact-->
+<section id="sec11">
+    <div class="sec11-container">
+    <div class="sec11-top">
+        <div class="sec11-top1">
+            <h2 class="sec11-h2" style="color: #000000;">OUR <span id="sec3-h2-span" style="color: #38b000;">CONTACTS</span></h2>
+           
+            <p id="sec11-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore accusantium qui aliquam voluptate fuga cumqu </p>
         </div>
-    </footer>
+        <div class="sec11-top2">
+
+            <div class="sec11-map-text">
+                <p id="sec11-p2"></p><i class="fa-solid fa-location-dot" id="map"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed delectus animi repudiand  
+                </p>
+        </div>
+        <div id="sec11-contact">
+        <a href="#" class="sec11-icon"><i class="fa-solid fa-phone-flip"></i><span class="icon-text"> (304)368-6719</span></a>
+        <a href="#" class="sec11-icon"><i class="fa-solid fa-phone-flip"></i><span class="icon-text"> (317)011-3001</span></a>
+        <a href="#" class="sec11-icon"><i class="fa-solid fa-envelope"></i><span class="icon-text"> info@website.com</span></a>
+        </div>
+           
+    </div>
+    </div>
+    <div class="sec11-bottom">
+    <img src="./images/map1.png" alt="map" id="sec11-img">
+    </div>
+</div>
+</section> 
+<!-- sec 11 end -->
+    </main>
+    <!-- Footer -->
+   <footer id="footer" >
+    <div class="sec12-container">
+        <!-- 1 -->
+        <div class="sec12-sub-con">
+            <img src="./images/pana-logo.png" alt="logo" id="footer-logo">
+            <p id="footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p id="footer-c">
+               <i class="fa-regular fa-copyright"></i>Panacloud 2019
+            </p>
+        </div>
+        <!-- 2 -->
+        <div class="sec12-sub-con">
+            <h4 class="sec12-h4 ">SERVICES</h4>
+           <p class="f-p"><a href="#"  class="footer-a">Lorem ipsum</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem</a></p>   
+            <p class="f-p"> <a href="#" class="footer-a">Lorem ipsum Dolor</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem ipsum</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem ipsum Dolor</a></p>    
+        </div>
+         <!-- 3 -->
+         <div class="sec12-sub-con">
+            <h4 class="sec12-h4 ">USEFUL LINKS</h4>
+            <p class="f-p"><a href="#"  class="footer-a">Lorem ipsum</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem</a></p>   
+            <p class="f-p"> <a href="#" class="footer-a">Lorem ipsum Dolor</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem ipsum</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem</a></p>
+            <p class="f-p"> <a href="#" class="footer-a">Lorem ipsum Dolor</a></p> 
+         </div>
+       <!-- 4 -->
+       <div class="sec12-sub-con">
+        <h4 class="sec12-h4 ">CONTACTS</h4>
+        <p class="sec12-icon-text">
+            <a href="#" class="footer-a2"><i class="fa-solid fa-phone-flip"></i> 
+                 (304)368-6719</a> 
+        </p>
+        <p class="sec12-icon-text">
+            <a href="#"  class="footer-a2"><i class="fa-solid fa-phone-flip"></i>
+                 (317)011-3001</a>
+        </p>
+        <p class="sec12-icon-text">
+            <a href="#"  class="footer-a2"><i class="fa-solid fa-envelope"></i>
+                info@website.com</a>
+        </p>
+
+        <h4 class="sec12-h4 ">FOLLOW US</h4>
+        <div id="footer-icon">
+        <ul id="footer-r">
+            <li><a href="#" class="footer-icon-a"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#" class="footer-icon-a"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#" class="footer-icon-a"><i class="fa-brands fa-google"></i></a></li>
+            <li><a href="#" class="footer-icon-a"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#" class="footer-icon-a"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        </div>
+
+
+
+
+       </div>  
+
+    </div>
+</footer>
 </body>
 
 </html>
